@@ -43,7 +43,7 @@ class App extends Component {
       <div className="App">
         <div style={{ 'visibility': this.state.show ? 'visible' : 'hidden' }}> <Navbar show={this.state.show} /></div>
 
-        <button onClick={this.hideNavBar} type="" className="btn123"></button>
+        <button style={{ 'display': 'none' }} onClick={this.hideNavBar} type="" className="btn123"></button>
         <ReactPart
           title="React系列"
           subtitle={'React'}
