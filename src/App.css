@@ -1,22 +1,101 @@
-.App {
-  text-align: center;
+:root {
+  --off-white: #fafafa;
+}
+.nav {
+  background-color: var(--off-white);
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 80px;
+  z-index: 1000;
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
 }
 
-.App-logo {
-  height: 40vmin;
+.nav-logo {
+  height: 60px;
+  width: 60px;
+  border-radius:100%
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-logo:hover {
+  cursor: pointer;
+}
+
+.nav .nav-content {
+  position: relative;
+  max-width: 900px;
+  padding: 0 30px;
+  margin: 0 auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  /* align-items: center; */
+  height: 100%;
+  top: 5px;
+}
+.nav-items {
+  position: absolute;
+  right: 10px;
+  text-align:right;
+  font-family: 'Bree Serif', serif;
+}
+.nav-item {
+  display: inline;
+  margin-left: 2rem;
+  color: #333;
+}
+
+.nav-item:hover {
+  color: black;
+  cursor: pointer;
+}
+.worksTitle{
+  position: absolute;
+  left:40%;
+  font-family: 'Lobster', cursive;
+  font-size:28px
+}
+.btn123{
+  visibility:hidden;
+}
+@media screen and (max-width:600px){
+  /* #navbar{ */
+   /* width:200px */
+  /* } */
+  .btn123{
+    position: relative;
+    top: 0;
+    right: 0;
+    visibility:visible
+  }
+  .nav{
+    height:80px;
+  }
+
+
+.nav-logo {
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  position: absolute;
+  top: 10px;
+}
+
+
+
+  .nav-item{
+    margin:0px;
+    display: block;
+  }
+}
+
+
+.section-dark {
+  background: rgb(85, 18, 18);
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.section-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
 }
