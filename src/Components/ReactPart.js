@@ -11,7 +11,7 @@ export default function ReactPart({ title, subtitle, dark, id }) {
                     <div style={{ margin: '10px' }}> <h3><a style={{ 'color': 'blue', textDecoration: 'none' }} href="https://github.com/janeru/flag_game/tree/flag_branch">github連結</a></h3></div>
                 </div>
 
-                <div style={{ margin: '10px' }}>製作說明：利用axios取得資料，用react框架呈現</div>
+                <div style={{ margin: '10px' }}>製作說明：利用 axios 取得資料，用 react 框架呈現</div>
 
                 <div style={{ margin: '10px' }}><li>遊戲說明：隨機出現四個國家選項，點選項，若猜對圖片中國家，則換下一題，得到10分，遊戲結束</li></div>
                 <hr />
