@@ -22,14 +22,13 @@ export default class Navbar extends Component {
         console.log('width:' + window.screen.width)
 
         if (window.screen.width > 600) {
-            console.log('123')
             console.log(this.navRef.current.clientHeight)
             this.navRef.current.style.height = '80px'
         }
     }
     render() {
         return (
-            <nav ref={this.navRef} className="nav" id="navbar" style={{ 'height': this.props.show ? '80px' : '0px' }}>
+            <nav ref={this.navRef} className="nav" id="navbar" style={{ 'height': this.props.show ? '100px' : '0px' }}>
                 <div className="nav-content">
                     <img
                         src={logo}
@@ -39,6 +38,7 @@ export default class Navbar extends Component {
                     />
                     <h2 className="worksTitle">Works</h2>
                     <ul className="nav-items">
+
                         <li className="nav-item">
                             <Link
                                 activeClass="active"
@@ -64,7 +64,18 @@ export default class Navbar extends Component {
               </Link>
                         </li>
 
-
+                        <li className="nav-item">
+                            <Link
+                                activeClass="active"
+                                to="section3"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={500}
+                            >
+                                Vue
+                   </Link>
+                        </li>
 
                     </ul>
                 </div>

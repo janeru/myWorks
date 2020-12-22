@@ -4,12 +4,14 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "express": "^4.17.1",
     "react": "^16.6.0",
     "react-bootstrap": "^1.0.0-beta.14",
     "react-dom": "^16.6.0",
     "react-scripts": "2.0.5",
     "react-scroll": "^1.7.10",
     "react-simple-dropdown": "^3.2.3",
+    "serve-static": "^1.14.1",
     "surge": "^0.21.3"
   },
   "scripts": {

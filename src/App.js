@@ -4,6 +4,7 @@ import "./App.css";
 import Navbar from "./Components/Navbar";
 import DataPart from "./Components/DataSciencePart";
 import ReactPart from "./Components/ReactPart";
+import VuePart from "./Components/VuePart"
 
 class App extends Component {
   constructor() {
@@ -57,7 +58,12 @@ class App extends Component {
           dark={true}
           id="section2"
         />
-
+        <VuePart
+          title="Vue系列"
+          subtitle={'Vue'}
+          dark={false}
+          id="section3"
+        />
       </div >
     );
   }
