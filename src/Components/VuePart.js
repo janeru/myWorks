@@ -15,7 +15,7 @@ export default function VuePart({ title, subtitle, dark, id }) {
                 <div style={{ margin: '10px' }}>製作說明：利用 axios 取得資料，前端用 Vue 框架呈現；後端用 Express+Mongodb</div>
 
                 <div style={{ margin: '10px' }}><li>說明：可以在不同分頁拿取、新增、修改、刪除產品資料、排序資料</li></div>
-                <div style={{ margin: '10px' }}><li>主要目的：以Vue compostion API的方式練習side project、此外利用Vue axios集中管理request、Express+Mongodb來拿取資料 </li></div>
+                <div style={{ margin: '10px' }}><li>主要目的：以Vue compostion API的方式練習side project、Vuex做CRUD API串接的logic處理、此外利用Vue axios集中管理request、Express+Mongodb來拿取資料 </li></div>
             </div>
 
         </div >
