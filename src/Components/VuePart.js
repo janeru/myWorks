@@ -12,10 +12,10 @@ export default function VuePart({ title, subtitle, dark, id }) {
                     <div style={{ margin: '10px' }}> <h3><a style={{ 'color': 'blue', textDecoration: 'none' }} href="https://github.com/janeru/shopping_server_express">github backend</a></h3></div>
                 </div>
 
-                <div style={{ margin: '10px' }}>製作說明：利用 axios 取得資料，用 Vue 框架呈現</div>
+                <div style={{ margin: '10px' }}>製作說明：利用 axios 取得資料，前端用 Vue 框架呈現；後端用 Express+Mongodb</div>
 
                 <div style={{ margin: '10px' }}><li>說明：可以在不同分頁拿取、新增、修改、刪除產品資料、排序資料</li></div>
-                <div style={{ margin: '10px' }}><li>主要目的：實作最新的Vue compostion API、此外利用Vue axios集中管理request </li></div>
+                <div style={{ margin: '10px' }}><li>主要目的：以Vue compostion API的方式練習side project、此外利用Vue axios集中管理request、Express+Mongodb來拿取資料 </li></div>
             </div>
 
         </div >
